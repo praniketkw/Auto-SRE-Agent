@@ -1,0 +1,54 @@
+2025-11-19 13:22:53,315 - ChaosMonkey - INFO - Application starting up...
+2025-11-19 13:22:54,320 - ChaosMonkey - INFO - Connected to Postgres at localhost:5432
+2025-11-19 13:22:54,320 - ChaosMonkey - INFO - Processed request_id=3528 status=200 duration=67ms
+2025-11-19 13:22:54,825 - ChaosMonkey - INFO - Processed request_id=3628 status=200 duration=38ms
+2025-11-19 13:22:55,332 - ChaosMonkey - INFO - Processed request_id=8374 status=200 duration=96ms
+2025-11-19 13:22:55,837 - ChaosMonkey - INFO - Processed request_id=6860 status=200 duration=85ms
+2025-11-19 13:22:56,344 - ChaosMonkey - INFO - Processed request_id=1989 status=200 duration=49ms
+2025-11-19 13:22:56,851 - ChaosMonkey - INFO - Processed request_id=4769 status=200 duration=72ms
+2025-11-19 13:22:57,358 - ChaosMonkey - INFO - Processed request_id=1263 status=200 duration=37ms
+2025-11-19 13:22:57,864 - ChaosMonkey - INFO - Processed request_id=9955 status=200 duration=43ms
+2025-11-19 13:23:08,215 - ChaosMonkey - INFO - Application starting up...
+2025-11-19 13:23:09,215 - ChaosMonkey - INFO - Connected to Postgres at localhost:5432
+2025-11-19 13:23:09,215 - ChaosMonkey - INFO - Processed request_id=1808 status=200 duration=73ms
+2025-11-19 13:23:09,718 - ChaosMonkey - INFO - Processed request_id=7208 status=200 duration=90ms
+2025-11-19 13:23:10,224 - ChaosMonkey - INFO - Processed request_id=2437 status=200 duration=88ms
+2025-11-19 13:23:10,730 - ChaosMonkey - INFO - Processed request_id=8748 status=200 duration=79ms
+2025-11-19 13:23:11,234 - ChaosMonkey - INFO - Processed request_id=1259 status=200 duration=30ms
+2025-11-19 13:23:11,741 - ChaosMonkey - INFO - Processed request_id=8622 status=200 duration=69ms
+2025-11-19 13:23:12,247 - ChaosMonkey - INFO - Processed request_id=5106 status=200 duration=63ms
+2025-11-19 13:23:12,751 - ChaosMonkey - INFO - Processed request_id=3467 status=200 duration=48ms
+2025-11-19 13:23:13,257 - ChaosMonkey - INFO - Processed request_id=9646 status=200 duration=65ms
+2025-11-19 13:23:13,760 - ChaosMonkey - INFO - Processed request_id=7778 status=200 duration=43ms
+2025-11-19 13:23:14,266 - ChaosMonkey - ERROR - ConnectionRefusedError: [Errno 111] Connection refused to postgres:5432
+2025-11-19 13:23:14,266 - ChaosMonkey - ERROR - sqlalchemy.exc.OperationalError: (psycopg2.OperationalError) could not connect to server: Connection refused
+2025-11-19 13:23:14,772 - ChaosMonkey - ERROR - ConnectionRefusedError: [Errno 111] Connection refused to postgres:5432
+2025-11-19 13:23:14,772 - ChaosMonkey - ERROR - sqlalchemy.exc.OperationalError: (psycopg2.OperationalError) could not connect to server: Connection refused
+2025-11-19 13:23:15,277 - ChaosMonkey - INFO - Processed request_id=4509 status=200 duration=62ms
+2025-11-19 13:23:15,783 - ChaosMonkey - ERROR - ConnectionRefusedError: [Errno 111] Connection refused to postgres:5432
+2025-11-19 13:23:15,784 - ChaosMonkey - ERROR - sqlalchemy.exc.OperationalError: (psycopg2.OperationalError) could not connect to server: Connection refused
+2025-11-19 13:23:16,287 - ChaosMonkey - ERROR - ConnectionRefusedError: [Errno 111] Connection refused to postgres:5432
+2025-11-19 13:23:16,287 - ChaosMonkey - ERROR - sqlalchemy.exc.OperationalError: (psycopg2.OperationalError) could not connect to server: Connection refused
+2025-11-19 13:23:16,793 - ChaosMonkey - ERROR - ConnectionRefusedError: [Errno 111] Connection refused to postgres:5432
+2025-11-19 13:23:16,794 - ChaosMonkey - ERROR - sqlalchemy.exc.OperationalError: (psycopg2.OperationalError) could not connect to server: Connection refused
+2025-11-19 13:23:17,299 - ChaosMonkey - INFO - Processed request_id=6620 status=200 duration=67ms
+2025-11-19 13:23:17,802 - ChaosMonkey - ERROR - ConnectionRefusedError: [Errno 111] Connection refused to postgres:5432
+2025-11-19 13:23:17,802 - ChaosMonkey - ERROR - sqlalchemy.exc.OperationalError: (psycopg2.OperationalError) could not connect to server: Connection refused
+2025-11-19 13:23:18,308 - ChaosMonkey - ERROR - ConnectionRefusedError: [Errno 111] Connection refused to postgres:5432
+2025-11-19 13:23:18,308 - ChaosMonkey - ERROR - sqlalchemy.exc.OperationalError: (psycopg2.OperationalError) could not connect to server: Connection refused
+2025-11-19 13:23:18,814 - ChaosMonkey - ERROR - ConnectionRefusedError: [Errno 111] Connection refused to postgres:5432
+2025-11-19 13:23:18,814 - ChaosMonkey - ERROR - sqlalchemy.exc.OperationalError: (psycopg2.OperationalError) could not connect to server: Connection refused
+2025-11-19 13:23:19,317 - ChaosMonkey - ERROR - ConnectionRefusedError: [Errno 111] Connection refused to postgres:5432
+2025-11-19 13:23:19,318 - ChaosMonkey - ERROR - sqlalchemy.exc.OperationalError: (psycopg2.OperationalError) could not connect to server: Connection refused
+2025-11-19 13:23:19,823 - ChaosMonkey - ERROR - ConnectionRefusedError: [Errno 111] Connection refused to postgres:5432
+2025-11-19 13:23:19,823 - ChaosMonkey - ERROR - sqlalchemy.exc.OperationalError: (psycopg2.OperationalError) could not connect to server: Connection refused
+2025-11-19 13:23:20,329 - ChaosMonkey - ERROR - ConnectionRefusedError: [Errno 111] Connection refused to postgres:5432
+2025-11-19 13:23:20,329 - ChaosMonkey - ERROR - sqlalchemy.exc.OperationalError: (psycopg2.OperationalError) could not connect to server: Connection refused
+2025-11-19 13:23:20,833 - ChaosMonkey - INFO - Processed request_id=6708 status=200 duration=46ms
+2025-11-19 13:23:21,335 - ChaosMonkey - ERROR - ConnectionRefusedError: [Errno 111] Connection refused to postgres:5432
+2025-11-19 13:23:21,336 - ChaosMonkey - ERROR - sqlalchemy.exc.OperationalError: (psycopg2.OperationalError) could not connect to server: Connection refused
+2025-11-19 13:23:21,842 - ChaosMonkey - ERROR - ConnectionRefusedError: [Errno 111] Connection refused to postgres:5432
+2025-11-19 13:23:21,842 - ChaosMonkey - ERROR - sqlalchemy.exc.OperationalError: (psycopg2.OperationalError) could not connect to server: Connection refused
+2025-11-19 13:23:22,347 - ChaosMonkey - ERROR - ConnectionRefusedError: [Errno 111] Connection refused to postgres:5432
+2025-11-19 13:23:22,348 - ChaosMonkey - ERROR - sqlalchemy.exc.OperationalError: (psycopg2.OperationalError) could not connect to server: Connection refused
+2025-11-19 13:23:22,852 - ChaosMonkey - INFO - Processed request_id=1522 status=200 duration=80ms
