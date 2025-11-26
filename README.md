@@ -28,18 +28,42 @@ Stores runtime data and output files.
 
 ## Usage
 
-### 1. Run the Simulator
-To start the application and simulate a failure, run the following command in a terminal:
-
+### 1. Setup
+First, install the required dependencies:
 ```bash
-python3 -m simulator.chaos_monkey --scenario db_crash
+pip install -r requirements.txt
 ```
 
-### 2. Run the Agent
-In a separate terminal window, run the agent to analyze the situation:
+You will also need an Anthropic API Key.
+1.  Copy the example environment file:
+    ```bash
+    cp .env.example .env
+    ```
+2.  Open `.env` and paste your API key:
+    ```
+    ANTHROPIC_API_KEY=sk-ant-...
+    ```
 
+### 2. Run the Application (The Patient)
+Start the web server in one terminal:
+```bash
+uvicorn demo_app.main:app --port 8000
+```
+
+### 3. Run the Agent (The Doctor)
+Start the SRE agent in a **new** terminal window:
 ```bash
 python3 -m sre_agent.main
 ```
+The agent will start monitoring `http://localhost:8000/health`.
 
-The agent will analyze the logs and generate a report in var/report.md.
+### 4. Cause Trouble
+In a third terminal (or the same one), trigger a crash:
+```bash
+curl -X POST http://localhost:8000/simulate/crash
+```
+
+**Watch the Agent terminal!** You should see it:
+1.  Detect the 500 Error.
+2.  Investigate logs.
+3.  Restart the server automatically.
